@@ -161,6 +161,7 @@ PODS:
     - MaterialComponents/private/RTL
     - MaterialComponents/Typography
   - MaterialComponents/TextFields (21.2.0):
+    - MaterialComponents/Palettes
     - MaterialComponents/Typography
   - MaterialComponents/Typography (21.2.0):
     - MaterialComponents/private/Application
