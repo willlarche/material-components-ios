@@ -1,25 +1,19 @@
 <!--docs:
-title: "Button Bar"
+title: "Button Bars"
 layout: detail
 section: components
 excerpt: "The Button Bar component is a view that facilitates the creation and layout of a horizontally-aligned list of buttons."
 iconId: button
+path: /catalog/button-bars/
 -->
 
-# Button Bar
+# Button Bars
 
-<!--{% if site.link_to_site == "true" %}-->
 <div class="article__asset article__asset--screenshot">
-  <img src="docs/assets/button_bar.png" alt="Button Bar" width="320">
+  <img src="docs/assets/button_bar.png" alt="Button Bar" width="375">
 </div>
-<!--{% else %}
-<div class="article__asset article__asset--screenshot" markdown="1">
-  <video src="docs/assets/button_bar.mp4" autoplay loop></video>
-</div>
-{% endif %}-->
 
 The Button Bar is a view that represents a list of UIBarButtonItems as horizontally aligned buttons.
-<!--{: .article__intro }-->
 
 - - -
 
@@ -37,6 +31,7 @@ To add this component to your Xcode project using CocoaPods, add the following t
 ``` bash
 pod 'MaterialComponents/ButtonBar'
 ```
+<!--{: .code-renderer.code-renderer--install }-->
 
 Then, run the following command:
 

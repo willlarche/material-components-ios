@@ -1,30 +1,24 @@
 <!--docs:
-title: "Activity Indicator"
+title: "Activity Indicators"
 layout: detail
 section: components
 excerpt: "Progress and activity indicators are visual indications of an app loading content."
 iconId: progress_activity
+path: /catalog/progress-indicators/activity-indicators/
 -->
 
-# Activity Indicator
+# Activity Indicators
 
-<!--{% if site.link_to_site == "true" %}-->
 <div class="article__asset article__asset--screenshot">
-  <img src="docs/assets/activity_indicator.png" alt="Activity Indicator" width="320">
+  <img src="docs/assets/activity_indicator.png" alt="Activity Indicator" width="375">
 </div>
-<!--{% else %}
-<div class="article__asset article__asset--screenshot" markdown="1">
-  <video src="docs/assets/activity_indicator.mp4" autoplay loop></video>
-</div>
-{% endif %}-->
 
 Activity indicators are visual indications of an app loading content. The Activity Indicator is a circular indicator that either rotates clockwise or fills to completion clockwise when displaying progress.
-<!--{: .article__intro }-->
 
 ## Design & API Documentation
 
 <ul class="icon-list">
-  <li class="icon-list-item icon-list-item--spec"><a href="https://material.google.com/components/progress-activity.html">Progress & activity</a></li>
+  <li class="icon-list-item icon-list-item--spec"><a href="https://material.io/guidelines/components/progress-activity.html">Progress & activity</a></li>
 </ul>
 
 - - -
@@ -53,6 +47,7 @@ To add this component to your Xcode project using CocoaPods, add the following t
 ``` bash
 pod 'MaterialComponents/ActivityIndicator'
 ```
+<!--{: .code-renderer.code-renderer--install }-->
 
 Then, run the following command:
 
@@ -164,3 +159,11 @@ activityIndicator.progress = 0.5;
 [activityIndicator stopAnimating];
 ```
 <!--</div>-->
+
+- - -
+
+## Related Components
+
+<ul class="icon-list">
+  <li class="icon-list-item icon-list-item--components"><a href="../ProgressView">Progress Views</a></li>
+</ul>

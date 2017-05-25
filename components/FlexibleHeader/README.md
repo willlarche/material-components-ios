@@ -1,31 +1,25 @@
 <!--docs:
-title: "Flexible Header"
+title: "Flexible Headers"
 layout: detail
 section: components
 excerpt: "The Flexible Header is a container view whose height and vertical offset react to UIScrollViewDelegate events."
 iconId: header
+path: /catalog/flexible-headers/
 -->
 
 # Flexible Header
 
-<!--{% if site.link_to_site == "true" %}-->
 <div class="article__asset article__asset--screenshot">
-  <img src="docs/assets/flexible_header.png" alt="Flexible Header" width="320">
+  <img src="docs/assets/flexible_header.png" alt="Flexible Header" width="375">
 </div>
-<!--{% else %}
-<div class="article__asset article__asset--screenshot" markdown="1">
-  <video src="docs/assets/flexible_header.mp4" autoplay loop></video>
-</div>
-{% endif %}-->
 
 The Flexible Header is a container view whose height and vertical offset react to
 UIScrollViewDelegate events.
-<!--{: .article__intro }-->
 
 ## Design & API Documentation
 
 <ul class="icon-list">
-  <li class="icon-list-item icon-list-item--spec"><a href="https://www.google.com/design/spec/patterns/scrolling-techniques.html">Scrolling Techniques</a></li>
+  <li class="icon-list-item icon-list-item--spec"><a href="https://material.io/guidelines/patterns/scrolling-techniques.html">Scrolling Techniques</a></li>
 </ul>
 
 - - -
@@ -44,6 +38,7 @@ To add this component to your Xcode project using CocoaPods, add the following t
 ```
 pod 'MaterialComponents/FlexibleHeader'
 ```
+<!--{: .code-renderer.code-renderer--install }-->
 
 Then, run the following command:
 
@@ -317,12 +312,12 @@ by changing the Flexible Header's behavior.
 <!--<div class="material-code-render" markdown="1">-->
 #### Swift
 ``` swift
-headerViewController.headerView.behavior = .Enabled
+headerViewController.headerView.shiftBehavior = .Enabled
 ```
 
 #### Objective-C
 ``` objc
-headerViewController.headerView.behavior = MDCFlexibleHeaderShiftBehaviorEnabled;
+headerViewController.headerView.shiftBehavior = MDCFlexibleHeaderShiftBehaviorEnabled;
 ```
 <!--</div>-->
 
@@ -338,7 +333,7 @@ behavior by setting the `EnabledWithStatusBar` behavior and implementing
 <!--<div class="material-code-render" markdown="1">-->
 #### Swift
 ``` swift
-headerViewController.headerView.behavior = .EnabledWithStatusBar
+headerViewController.headerView.shiftBehavior = .EnabledWithStatusBar
 
 override func childViewControllerForStatusBarHidden() -> UIViewController? {
   return headerViewController
@@ -347,7 +342,7 @@ override func childViewControllerForStatusBarHidden() -> UIViewController? {
 
 #### Objective-C
 ``` objc
-headerViewController.headerView.behavior = MDCFlexibleHeaderShiftBehaviorEnabledWithStatusBar;
+headerViewController.headerView.shiftBehavior = MDCFlexibleHeaderShiftBehaviorEnabledWithStatusBar;
 
 - (UIViewController *)childViewControllerForStatusBarHidden {
   return _headerViewController;
@@ -613,7 +608,7 @@ controller.
 <!--<div class="material-code-render" markdown="1">-->
 #### Swift
 ``` swift
-override func childViewControllerForStatusBarStyle() -> UIViewController? {
+override var childViewControllerForStatusBarStyle: UIViewController? {
   return headerViewController
 }
 ```
@@ -718,3 +713,12 @@ the Flexible Header staying fixed in place, even though the underlying scroll vi
 
 In these situations the Flexible Header also ensures that it is always the front-most view. This is
 to combat the UITableView displaying its divider lines in front of the Flexible Header.
+
+- - -
+
+## Related Components
+
+<ul class="icon-list">
+  <li class="icon-list-item icon-list-item--components"><a href="../HeaderStackView">Header Stack Views</a></li>
+  <li class="icon-list-item icon-list-item--components"><a href="../NavigationBar">Navigation Bar</a></li>
+</ul>

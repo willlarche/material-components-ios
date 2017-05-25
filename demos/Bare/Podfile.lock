@@ -1,4 +1,6 @@
 PODS:
+  - CatalogByConvention (2.0.0)
+  - EarlGrey (1.9.0)
   - MaterialComponents (23.0.2):
     - MaterialComponents/ActivityIndicator (= 23.0.2)
     - MaterialComponents/AnimationTiming (= 23.0.2)
@@ -24,6 +26,7 @@ PODS:
     - MaterialComponents/Slider (= 23.0.2)
     - MaterialComponents/Snackbar (= 23.0.2)
     - MaterialComponents/Tabs (= 23.0.2)
+    - MaterialComponents/TextFields (= 23.0.2)
     - MaterialComponents/Typography (= 23.0.2)
   - MaterialComponents/ActivityIndicator (23.0.2):
     - MaterialComponents/private/Application
@@ -157,6 +160,12 @@ PODS:
     - MaterialComponents/Ink
     - MaterialComponents/private/RTL
     - MaterialComponents/Typography
+  - MaterialComponents/TextFields (23.0.2):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/RTL
+    - MaterialComponents/Typography
   - MaterialComponents/Typography (23.0.2):
     - MaterialComponents/private/Application
   - MDFTextAccessibility (1.2.0)
@@ -169,9 +178,13 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  MaterialComponents: fc0b6f9725db1f434aa3f8d7feb7832ac99a3692
+  CatalogByConvention: be55c2263132e4f9f59299ac8a528ee8715b3275
+  EarlGrey: 3dd4feebea192819c3af5e74f85fe5431b820de2
+  MaterialComponents: 3e6cdcb9a2779f130c0d98407b2c419af2b340b7
+  MaterialComponentsCatalog: 1e956249208e8ce3629e3c9e2f76f6e78631ecbc
+  MaterialComponentsUnitTests: 89f93baffdd3190a6746a403830f3982bcbb85f4
   MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
 
-PODFILE CHECKSUM: 44e7c616a05bb4ce24db557c3de4bfbe915c2f56
+PODFILE CHECKSUM: 8c6ad4fe8e5aa667e06c9b43f3f5d4d6430b1322
 
 COCOAPODS: 1.2.1

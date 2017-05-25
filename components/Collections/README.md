@@ -4,27 +4,21 @@ layout: detail
 section: components
 excerpt: "Collection view classes that adhere to Material Design layout and styling."
 iconId: list
+path: /catalog/collections/
 -->
 
 # Collections
 
-<!--{% if site.link_to_site == "true" %}-->
 <div class="article__asset article__asset--screenshot">
-  <img src="docs/assets/collections.png" alt="Collections" width="320">
+  <img src="docs/assets/collections.png" alt="Collections" width="375">
 </div>
-<!--{% else %}
-<div class="article__asset article__asset--screenshot" markdown="1">
-  <video src="docs/assets/collections.mp4" autoplay loop></video>
-</div>
-{% endif %}-->
 
 Collection view classes that adhere to Material Design layout and styling.
-<!--{: .article__intro }-->
 
 ## Design & API Documentation
 
 <ul class="icon-list">
-  <li class="icon-list-item icon-list-item--spec"><a href="https://www.google.com/design/spec/components/lists.html#lists-specs">Collection List Specs</a></li>
+  <li class="icon-list-item icon-list-item--spec"><a href="https://material.io/guidelines/components/lists.html#lists-specs">Collection List Specs</a></li>
 </ul>
 
 - - -
@@ -43,6 +37,7 @@ To add this component to your Xcode project using CocoaPods, add the following t
 ```
 pod 'MaterialComponents/Collections'
 ```
+<!--{: .code-renderer.code-renderer--install }-->
 
 Then, run the following command:
 
@@ -227,3 +222,14 @@ override func viewDidLoad() {
 }
 ```
 <!--</div>-->
+
+
+- - -
+
+## Related Components
+
+<ul class="icon-list">
+  <li class="icon-list-item icon-list-item--components"><a href="../CollectionCells">Collection Cells</a></li>
+  <li class="icon-list-item icon-list-item--components"><a href="../CollectionLayoutAttributes">Collection Layout Attributes</a></li>
+</ul>
+

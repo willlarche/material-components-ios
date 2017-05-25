@@ -4,18 +4,22 @@ layout: detail
 section: components
 excerpt: "The Dialogs component implements the Material Design specifications for modal presentations."
 iconId: dialog
+path: /catalog/dialogs/
 -->
 
 # Dialogs
 
+<div class="article__asset article__asset--screenshot">
+  <img src="docs/assets/dialogs.png" alt="Dialogs" width="375">
+</div>
+
 Dialogs provides both a presentation controller for displaying a modal dialog and an alert
 controller that will display a simple modal alert.
-<!--{: .article__intro }-->
 
 ## Design & API Documentation
 
 <ul class="icon-list">
-  <li class="icon-list-item icon-list-item--spec"><a href="https://material.google.com/components/dialogs.html">Dialogs</a></li>
+  <li class="icon-list-item icon-list-item--spec"><a href="https://material.io/guidelines/components/dialogs.html">Dialogs</a></li>
 </ul>
 
 ### Dialogs Classes
@@ -48,6 +52,7 @@ To add this component to your Xcode project using CocoaPods, add the following t
 ```
 pod 'MaterialComponents/Dialogs'
 ```
+<!--{: .code-renderer.code-renderer--install }-->
 
 Then run the following command:
 

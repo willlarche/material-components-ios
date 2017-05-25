@@ -1,32 +1,26 @@
 <!--docs:
-title: "Snackbar"
+title: "Snackbars"
 layout: detail
 section: components
 excerpt: "Snackbars provide brief feedback about an operation through a message at the bottom of the screen."
 iconId: toast
+path: /catalog/snackbars/
 -->
 
 # Snackbar
 
-<!--{% if site.link_to_site == "true" %}-->
 <div class="article__asset article__asset--screenshot">
-  <img src="docs/assets/snackbar.png" alt="Snackbar" width="320">
+  <img src="docs/assets/snackbar.png" alt="Snackbar" width="375">
 </div>
-<!--{% else %}
-<div class="article__asset article__asset--screenshot" markdown="1">
-  <video src="docs/assets/snackbar.mp4" autoplay loop></video>
-</div>
-{% endif %}-->
 
 Snackbars provide brief feedback about an operation through a message at the bottom of the screen.
 Snackbars contain up to two lines of text directly related to the operation performed. They may
 contain a text action, but no icons.
-<!--{: .article__intro }-->
 
 ## Design & API Documentation
 
 <ul class="icon-list">
-  <li class="icon-list-item icon-list-item--spec"><a href="https://material.google.com/components/snackbars-toasts.html">Snackbars</a></li>
+  <li class="icon-list-item icon-list-item--spec"><a href="https://material.io/guidelines/components/snackbars-toasts.html">Snackbars</a></li>
 </ul>
 
 - - -
@@ -45,6 +39,7 @@ To add this component to your Xcode project using CocoaPods, add the following t
 ```
 pod 'MaterialComponents/Snackbar'
 ```
+<!--{: .code-renderer.code-renderer--install }-->
 
 Then, run the following command:
 
@@ -150,3 +145,11 @@ action.title = @"Answer";
 message.action = action;
 ```
 <!--</div>-->
+
+- - -
+
+## Related Components
+
+<ul class="icon-list">
+  <li class="icon-list-item icon-list-item--components"><a href="../OverlayWindow">Overlay Windows</a></li>
+</ul>

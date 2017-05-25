@@ -52,7 +52,7 @@
 
 @end
 
-// https://material.google.com/components/dialogs.html#dialogs-specs
+// https://material.io/guidelines/components/dialogs.html#dialogs-specs
 static const UIEdgeInsets MDCDialogContentInsets = {24.0, 24.0, 24.0, 24.0};
 static const CGFloat MDCDialogContentVerticalPadding = 20.0;
 
@@ -62,7 +62,7 @@ static const CGFloat MDCDialogActionsVerticalPadding = 8.0;
 static const CGFloat MDCDialogActionButtonHeight = 36.0;
 static const CGFloat MDCDialogActionButtonMinimumWidth = 48.0;
 
-static const CGFloat MDCDialogMessageOpacity = 0.38f;
+static const CGFloat MDCDialogMessageOpacity = 0.54f;
 
 @interface MDCAlertController ()
 

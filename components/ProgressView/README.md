@@ -1,33 +1,27 @@
 <!--docs:
-title: "Progress View"
+title: "Progress Views"
 layout: detail
 section: components
 excerpt: "Progress View is a determinate and linear progress indicator that implements Material Design animation and layout."
-iconId: progress_activity
+iconId: progress_linear
+path: /catalog/progress-indicators/progress-views/
 -->
 
 # Progress View
 
-<!--{% if site.link_to_site == "true" %}-->
 <div class="article__asset article__asset--screenshot">
-  <img src="docs/assets/progress_view.png" alt="Progress View" width="320">
+  <img src="docs/assets/progress_view.png" alt="Progress View" width="375">
 </div>
-<!--{% else %}
-<div class="article__asset article__asset--screenshot" markdown="1">
-  <video src="docs/assets/progress_view.mp4" autoplay loop></video>
-</div>
-{% endif %}-->
 
 This control is designed to be a drop-in replacement for `UIProgressView`, with a user experience
-influenced by [Material Design specifications](https://material.google.com/components/progress-activity.html#)
+influenced by [Material Design specifications](https://material.io/guidelines/components/progress-activity.html#)
 for animation and layout. The API methods are the same as a `UIProgressView`, with the addition of a
 few key methods required to achieve the desired animation of the control.
-<!--{: .article__intro }-->
 
 ## Design & API Documentation
 
 <ul class="icon-list">
-  <li class="icon-list-item icon-list-item--spec"><a href="https://material.google.com/components/progress-activity.html">Progress & activity</a></li>
+  <li class="icon-list-item icon-list-item--spec"><a href="https://material.io/guidelines/components/progress-activity.html">Progress & activity</a></li>
 </ul>
 
 - - -
@@ -46,6 +40,7 @@ To add this component to your Xcode project using CocoaPods, add the following t
 ``` bash
 pod 'MaterialComponents/ProgressView'
 ```
+<!--{: .code-renderer.code-renderer--install }-->
 
 Then, run the following command:
 
@@ -151,3 +146,11 @@ func completeAndHideProgressView() {
 }
 ```
 <!--</div>-->
+
+- - -
+
+## Related Components
+
+<ul class="icon-list">
+  <li class="icon-list-item icon-list-item--components"><a href="../ActivityIndicator">Activity Indicators</a></li>
+</ul>

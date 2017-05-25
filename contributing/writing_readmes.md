@@ -11,13 +11,12 @@ fill out have been marked with `TODO` statements.
     # TODO: ComponentName
 
     TODO: Single sentence description of the component.
-    <!--{: .article__intro }-->
 
     ## Design & API Documentation
 
     <ul class="icon-list">
       <li class="icon-list-item icon-list-item--spec">
-        <a href="https://www.google.com/design/spec/<TODO: link to spec>">
+        <a href="https://material.io/guidelines/<TODO: link to spec>">
           TODO: link to spec
         </a>
       </li>

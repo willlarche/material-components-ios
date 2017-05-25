@@ -3,31 +3,26 @@ title: "Shadow Layer"
 layout: detail
 section: components
 excerpt: "The Shadow Layer component implements the Material Design specifications for elevation and shadows."
+iconId: shadow
+path: /catalog/shadows/shadow-layers/
 -->
 
 # Shadow Layer
 
-<!--{% if site.link_to_site == "true" %}-->
 <div class="article__asset article__asset--screenshot">
-  <img src="docs/assets/shadow_layer.png" width="320">
+  <img src="docs/assets/shadow_layer.png" width="375">
 </div>
-<!--{% else %}
-<div class="article__asset article__asset--screenshot" markdown="1">
-  <video src="docs/assets/shadow_layer.mp4" autoplay loop></video>
-</div>
-{% endif %}-->
 
 Shadow Layer implements the Material Design specifications for elevation and shadows.
 By simulating the physical properties of paper, elevation and light source, shadows give
 visual depth to components. Shadow Layer provides an elevation property which affects
 a shadow's depth and strength, automatically handling shadow diffusion based on the shadow's
 elevation.
-<!--{: .article__intro }-->
 
 ## Design & API Documentation
 
 <ul class="icon-list">
-  <li class="icon-list-item icon-list-item--spec"><a href="https://www.google.com/design/spec/what-is-material/elevation-shadows.html">Elevation and Shadows</a></li>
+  <li class="icon-list-item icon-list-item--spec"><a href="https://material.io/guidelines/what-is-material/elevation-shadows.html">Elevation and Shadows</a></li>
 </ul>
 
 ### MDCShadowLayer
@@ -67,6 +62,7 @@ To add this component to your Xcode project using CocoaPods, add the following t
 ``` bash
 pod 'MaterialComponents/ShadowLayer'
 ```
+<!--{: .code-renderer.code-renderer--install }-->
 
 Then, run the following command:
 
@@ -223,3 +219,11 @@ self.layer.rasterizationScale = [UIScreen mainScreen].scale;
 <!--</div>-->
 
 Disable rasterization before animating MDCShadowLayer.
+
+- - -
+
+## Related Components
+
+<ul class="icon-list">
+  <li class="icon-list-item icon-list-item--components"><a href="../ShadowElevations">Shadow Elevations</a></li>
+</ul>

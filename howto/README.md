@@ -1,10 +1,15 @@
 <!--docs:
 title: "How to use Material Components"
 layout: landing
-section: howto
+section: docs
+path: /docs/
 -->
 
-# How to use Material Components
+# Supporting documentation
+
+This section includes supporting documentation aimed to both improve the onboarding experience for teams that are new to Material Components, as well as cover advanced issues for those interested in the reasoning behind our decisions and contributing to the project.
+
+## How to use Material Components for iOS
 
 Material Components for iOS should be immediately useable out of the box with
 Apple's standard development tool chain.
@@ -22,7 +27,6 @@ Apple's standard development tool chain.
 - [All Components](../components/)
 - [Demo Apps](../demos/)
 - [Contributing](../contributing/)
-- [MDC-iOS on Stack Overflow](https://www.stackoverflow.com/questions/tagged/material-components+ios) (external site)
-- [Material.io](https://www.material.io) (external site)
-- [Material Design Guidelines](https://material.google.com) (external site)
-
+- [MDC-iOS on Stack Overflow](https://www.stackoverflow.com/questions/tagged/material-components+ios)
+- [Material.io](https://www.material.io)
+- [Material Design Guidelines](https://material.io/guidelines)

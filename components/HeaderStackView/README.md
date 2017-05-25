@@ -1,31 +1,25 @@
 <!--docs:
-title: "Header Stack View"
+title: "Header Stack Views"
 layout: detail
 section: components
 excerpt: "The Header Stack View component is a view that coordinates the layout of two vertically stacked bar views."
 iconId: header
+path: /catalog/flexible-headers/header-stack-views/
 -->
 
-# Header Stack View
+# Header Stack Views
 
-<!--{% if site.link_to_site == "true" %}-->
 <div class="article__asset article__asset--screenshot">
   <img src="docs/assets/header_stack_view.png" alt="Header Stack View" width="320">
 </div>
-<!--{% else %}
-<div class="article__asset article__asset--screenshot" markdown="1">
-  <video src="docs/assets/header_stack_view.mp4" autoplay loop></video>
-</div>
-{% endif %}-->
 
 The Header Stack View component is a view that coordinates the layout of two vertically stacked
 bar views.
-<!--{: .article__intro }-->
 
 ## Design & API Documentation
 
 <ul class="icon-list">
-  <li class="icon-list-item icon-list-item--spec"><a href="https://www.google.com/design/spec/layout/structure.html#structure-app-bar">App Bar</a></li>
+  <li class="icon-list-item icon-list-item--spec"><a href="https://material.io/guidelines/layout/structure.html#structure-app-bar">App Bar</a></li>
 </ul>
 
 - - -
@@ -45,6 +39,7 @@ To add this component to your Xcode project using CocoaPods, add the following t
 ``` bash
 pod 'MaterialComponents/HeaderStackView'
 ```
+<!--{: .code-renderer.code-renderer--install }-->
 
 Then, run the following command:
 

@@ -1,9 +1,11 @@
----
+<!--docs:
 title: "Styling the collection view"
+navTitle: Styling
 layout: detail
 section: components
 iconId: list
----
+path: /catalog/collections/styling/
+-->
 # Styling the collection view
 
 `MDCCollectionViewController` provides a `styler` property that conforms to the
@@ -119,8 +121,8 @@ self.styler.gridColumnCount = 2;
 
 The styler allows customizing cell separators for the entire collection view. Individual
 cell customization is also available by using an `MDCCollectionViewCell` cell or a subclass of it.
-Learn more by reading the section on [Cell Separators](../CollectionCells/#cell-separators) in the
-[CollectionCells](../CollectionCells/) component.
+Learn more by reading the section on [Cell Separators](../../CollectionCells/#cell-separators) in the
+[CollectionCells](../../CollectionCells/) component.
 
 <!--<div class="material-code-render" markdown="1">-->
 #### Swift
