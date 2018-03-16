@@ -217,7 +217,7 @@
 /*
  Sets the shadow color for a particular control state.
 
- @param elevation The shadow color.
+ @param shadowColor The shadow color.
  @param state The control state.
  */
 - (void)setShadowColor:(nullable UIColor *)shadowColor forState:(UIControlState)state
